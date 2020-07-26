@@ -1,11 +1,17 @@
 import React from 'react';
-
+import './index.css';
 
 function App() {
   return (
-    <div >
-      hillo
-    </div>
+    <div className="grid-container">
+            <header>
+              <a href= "/"> FLOWERS</a>
+            </header>
+            <main>
+              
+            </main>
+           <footer></footer>
+          </div>
   );
 }
 
