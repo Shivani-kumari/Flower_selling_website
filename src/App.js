@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import data from "./data.json";
 import Products from "./container/products";
+import Filter from './container/Filter';
 
 class App extends React.Component {
   constructor(){
@@ -12,6 +13,12 @@ class App extends React.Component {
       sort : ""
     }
   }
+  sortProducts(sort){
+
+  }
+  filterProducts(size){
+
+  }
   render(){
     return (
       <div className="grid-container">
@@ -20,8 +27,17 @@ class App extends React.Component {
               </header>
               <main>
                 <div className ="content">
-                  <div className="main"> <Products products ={this.state.products}>
-                    </Products ></div>
+                
+                  <div className="main">
+                  <Filter count = {this.state.products.length}></Filter> 
+                  <Products 
+                  products ={this.state.products}
+                   size ={this.state.size}
+                   sort = {this.state.sort}
+                   filterProducts ={this.filterProducts}
+                   sortProducts ={this.sortProducts}
+                  >
+                  </Products ></div>
                   <div className ="sidebar">sidebar</div>
                 </div>
               </main>
