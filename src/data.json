@@ -5,7 +5,7 @@
         "image": "/images/d1.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red", "Bule", "Pink", "green"],
+        "availableColours": ["Red"],
         "price": 29.9
       },
       {
@@ -13,7 +13,7 @@
         "image": "/images/d2.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red", "Bule", "Pink"],
+        "availableColours": ["Red"],
         "price": 18.9
       },
       {
@@ -21,7 +21,7 @@
         "image": "/images/d3.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red", "Bule", "Pink"],
+        "availableColours": ["Red"],
         "price": 14.9
       },
       {
@@ -29,7 +29,7 @@
         "image": "/images/d4.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red"],
+        "availableColours": ["Red"],
         "price": 25.9
       },
       {
@@ -37,7 +37,7 @@
         "image": "/images/d5.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red", "Bule", "Pink"],
+        "availableColours": ["Red"],
         "price": 10.9
       },
       {
@@ -45,7 +45,7 @@
         "image": "/images/d6.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableSizes": ["Red", "Bule"],
+        "availableColours": ["Red", "Bule"],
         "price": 49.9
       }
     ]
