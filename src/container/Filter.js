@@ -22,9 +22,10 @@ export default class Filter extends Component {
                     onChange ={this.props.filterProducts}>
                         <option value="">All</option>
                         <option value="Red">Red</option>
+                        <option value="pink">pink</option>
                         <option value="bule">bule</option>
                         <option value="green">green</option>
-                        <option value="pink">pink</option>
+                        
                     
                     </select>
                     

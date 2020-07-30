@@ -21,7 +21,7 @@
         "image": "/images/d3.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableColours": ["Red"],
+        "availableColours": ["pink"],
         "price": 14.9
       },
       {
@@ -45,7 +45,7 @@
         "image": "/images/d6.jpg",
         "title": "rose",
         "description": "Beautiful flowers rose",
-        "availableColours": ["Red", "Bule"],
+        "availableColours": ["pink"],
         "price": 49.9
       }
     ]
