@@ -4,6 +4,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+background-color: rgb(179, 151, 179);
 }
 body,
 #root {
@@ -20,6 +21,7 @@ textarea {
 }
 .grid-container {
   display: grid;
+  
   grid-template-areas:
     "header"
     "main"
@@ -90,8 +92,8 @@ footer {
   height: 100%;
 }
 .product img {
-  max-width: 37rem;
-  max-height: 37rem;
+  max-width: 35rem;
+  max-height: 33rem;
 }
 .product-price div,
 .product-price button {
@@ -102,7 +104,7 @@ footer {
   font-size: 2rem;
 }
 .button {
-  padding: 1rem;
+  padding: 0.5rem;
   border: 0.1rem #c0c0c0 solid;
   background-color: #f0f0f0;
   cursor: pointer;
@@ -122,6 +124,47 @@ footer {
   border-bottom: 0.1rem #c0c0c0 solid;
 }
 .filter div {
+  flex: 1;
+}
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+.cart-header {
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+.cart-items img {
+  width: 5rem;
+}
+.cart-items li {
+  display: flex;
+}
+.cart-items li div {
+  padding: 0.5rem;
+}
+.cart-items li div:last-child {
+  flex: 1;
+}
+.right {
+  text-align: right;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.total > div {
+  font-size: 2rem;
+}
+.total > div,
+.total > button {
   flex: 1;
 }
 
